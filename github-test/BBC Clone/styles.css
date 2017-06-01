@@ -1,0 +1,243 @@
+
+body {
+   font-family: Arial, Helvetica, freesans-serif;
+}
+
+* {
+   margin: 0;
+}
+
+/* this is going to center all in the middle. All the HTML code after this DIV will fall to the right of ID of logo b/c it's in this fixed-width DIV. */
+.fixed-width {
+   width: 1000px;
+   margin: 0 auto;
+}
+
+#bold {      /* This is here so the UK is Bold */
+   font-weight: bold;
+   font-size: 1.3em;
+}
+
+/* All TOP BAR */
+
+.top-bar {
+   background-color: #fff;
+   width: 100%;
+   height: 40px;
+   color: #000; 
+}
+
+#logo {
+   float: left;
+   padding-top: 10px;
+   padding-right: 10px;
+   padding-bottom: 3px;
+   border-right: 2px solid #B4B4B4;
+}
+
+#sign-in {  
+   font-weight: bold;
+   font-size: 0.9em;
+   float: left;
+   padding: 10px 70px 9px 10px;
+   border-right: 2px solid #B4B4B4; 
+}
+
+.top-bar ul {
+   padding-top: 10px;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   
+}
+
+.top-bar ul li a {
+   float: left;  /* can use float instead of Inline, puts text on one line. */
+   list-style: none;   /* list-style instead of decoration */
+   font-size: 25px;
+   font-weight: bold;
+   font-size: 0.9em;
+   border-right: 2px solid #B4B4B4;
+   padding: 13px 20px 10px 20px;
+   color: #000;
+   text-decoration: none;
+}
+
+.top-bar ul li a:hover {
+   color: #bdc3c7;
+   
+}
+
+#search-box {
+   float: left;  /* you need to float everything to keep it on ONE LINE */
+   width: 200px;
+   padding: 10px 30px 7px 10px;
+}
+ 
+#search-box input {
+   height: 20px;
+   background-image: url('http://static.bbci.co.uk/frameworks/barlesque/2.88.1/orb/4/img/orb-search-dark.png');
+   background-repeat: no-repeat;
+   background-position: right center;
+   padding-left: 10px;
+   font-weight: bold;
+   font-size: 13px;
+}
+
+/* END OF TOP BAR CSS */
+
+
+/* NEWS */
+.news-bar {
+   background-color: #c0392b;
+   width: 100%;
+   height: 60px;
+   color: #fff;
+}
+
+.news-bar p {
+   font-size: 2.5em;
+   padding: 0;
+   margin: 0;
+   padding-top: 8px;
+   position: relative; /* The position and right styles were used to align left the NEWS to the BBC logo. They were off like a hair. */
+   right: 2px;
+}
+/* END NEWS */
+
+/* CATAGORY BAR */
+.catagory-bar {
+   width: 100%
+   height: 40px;
+   background-color: #d35400;
+   color: #fff;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+.catagory-bar ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   padding-bottom: 15px;
+}
+
+.catagory-bar ul li {
+   float: left;
+   font-family: Arial;
+   font-size: 0.9em;
+   border-right: 1px solid white;
+   padding-left: 12px;
+   padding-right: 12px;
+   position: relative;
+   right: 15px
+}
+ 
+.catagory-bar a {
+   color: #fff;
+   text-decoration: none;
+}
+
+.catagory-bar a:hover {
+   color: #f39c12; 
+}
+
+
+/* LOCATION BAR */
+.location-bar {
+   width: 100%
+   height: 40px;
+   background-color: #fff;
+}
+
+.location-bar ul {
+   list-style: none;   /* this takes away the bullet dots in an unordered list */
+   padding-top: 10px;
+   padding-bottom: 50px;
+}
+
+.location-bar ul li {
+   float: left;
+   font-family: Arial;
+   font-size: .9em;
+   padding-right: 20px;
+   padding-left: 20px;
+   border-right: 1px solid black; 
+   position: relative;
+   right: 60px;
+}
+
+.location-bar ul li a {
+   color: #000;
+   text-decoration: none;
+}
+
+.location-bar ul li a:hover {
+   Border-bottom: 4px solid red;
+   padding-bottom: 3px;
+}
+
+
+
+/* CONTENT  */
+
+.content {
+   background-color: #fff;
+   width: 100%;
+}
+
+.content p {
+   width: 250px;
+}
+
+.content h1 {
+   color: #1167A8;
+   padding-bottom: 15px;
+}
+
+.content img {
+   height: 175px;
+   width: 300px;
+   float: right;
+   position: relative;
+   right: 425px;
+   bottom: 50px;
+}
+
+
+
+#content-links  {
+   margin-top: 70px;
+   width: 250px;
+   line-height: 1.7em;
+}
+
+#content-links a {
+   text-decoration: none;
+   color: black;
+   font-size: 15px;
+}
+
+
+/* RIGHT COLUMN INFO  */
+
+.watch-listen {
+   float: right;
+   position: relative;
+   bottom: 300px;
+   right: 300px;
+   border-left: 1px solid black;
+   padding: 0 0 0 20px;
+}
+
+.watch-listen h2 {
+   font-family: Arial;
+   font-weight: 100;
+   margin: 0 0 12px 0;
+   padding: 0;
+}
+
+.watch-listen img {  /* this is the image that wont come in */
+   position: relative;
+   right: 6px;
+}
